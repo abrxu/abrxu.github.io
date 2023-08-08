@@ -174,3 +174,39 @@ nav #nav-container {
   margin-top: 1rem;
   color: #F5F9F8;
 }
+
+@media (min-width: 1620px) {
+  #nav-container .nav-btns a {
+    font-size: 1.5rem;
+  }
+
+  #section-hero {
+    padding: 3.5rem 6.5rem;
+  }
+
+  .text-container-hero h1 {
+    display: flex;
+    font-size: 5.75rem
+  }
+
+  #heroimg {
+    height: 25rem;
+    width: 25rem;
+  }
+
+  #section-dw {
+    min-height: 80vh;
+  }
+
+  #section-feedback {
+    min-height: 78.5vh
+  }
+
+  #feedbackimg {
+    width: 32.5rem;
+  }
+
+  #feedbackimg2 {
+    width: 27.5rem;
+  }
+}
