@@ -198,13 +198,17 @@ nav #nav-container {
     min-height: 80vh;
   }
 
+  #secondimg {
+    width: 20rem;
+  }
+
   #section-feedback {
     min-height: 75vh
   }
 
   #feedbackimg {
     padding-left: 2.5rem;
-    width: 25rem;
+    width: 27.5rem;
   }
 
   #feedback2img {
