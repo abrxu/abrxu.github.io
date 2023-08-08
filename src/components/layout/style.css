@@ -1,0 +1,176 @@
+/* roxo mais claro: #E0AAFE */
+/* roxo mais escuro: #81007F */
+/* off-white: #F5F9F8 */
+/* cinza: #1c1c1c */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #81007F;
+  border-radius: 5px;
+}
+
+* {
+  scrollbar-color: #E0AAFE #1c1c1c;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+/* NAV */
+
+nav #nav-container {
+  padding: 1rem 3rem;
+  /* background-color: #81007F; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-container .nav-btns a{
+  color: #81007F;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 2.25rem;
+  transition: all 0.5s ease;
+}
+
+#nav-container .nav-btns a:hover{
+  color: #F5F9F8
+}
+
+#profileimg {
+  height: 3.25rem;
+  width: 3.25rem;
+  transition: all 0.5s ease-in-out;
+}
+
+#profileimg:hover {
+  cursor: pointer;
+  transform: scale(1.09)
+}
+
+/* SECTION HERO */
+
+#section-hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5rem 9rem;
+}
+
+.text-container-hero h1 {
+  display: flex;
+  font-size: 6.5rem
+}
+
+.workh1-hero {
+  color: #F5F9F8
+}
+
+.wellh1-hero {
+  color: #81007F
+}
+
+.slogan-hero {
+  font-weight: 500;
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+  color: #81007F
+}
+
+#heroimg {
+  height: 29rem;
+  width: 29rem;
+  transition: all 0.35s ease-in-out;
+}
+
+#heroimg:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+
+/* SECTION DW */
+
+#section-dw {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #81007F;
+}
+
+#secondimg {
+  width: 28rem;
+  height: 28rem;
+  transition: all 0.35s ease-in-out;
+}
+
+#secondimg:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+
+.dont {
+  color: #E0AAFE;
+  font-size: 5rem;
+  line-height: 4.5rem;
+}
+
+.worry {
+  color: #F5F9F8;
+  font-size: 6.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.worry:hover {
+  cursor: pointer;
+  font-size: 6.7rem;
+}
+
+.slogan-dw {
+  padding-left: 0.2rem;
+  padding-top: 0.5rem;
+  color: #E0AAFE;
+  font-size: 1.4rem;
+}
+
+/* SECTION FEEDBACK */
+
+#section-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  min-height: 100vh;
+}
+
+#feedbackimg {
+  width: 40rem;
+}
+
+#feedback2img {
+  width: 35rem;
+  transition: all 0.35s ease-in-out;
+}
+
+#feedback2img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.feedback-box-p {
+  margin-top: 1rem;
+  color: #F5F9F8;
+}
