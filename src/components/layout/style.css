@@ -175,7 +175,7 @@ nav #nav-container {
   color: #F5F9F8;
 }
 
-@media (min-width: 1620px) {
+@media (max-width: 1080px) {
   #nav-container .nav-btns a {
     font-size: 1.5rem;
   }
@@ -186,12 +186,12 @@ nav #nav-container {
 
   .text-container-hero h1 {
     display: flex;
-    font-size: 5.75rem
+    font-size: 4.25rem
   }
 
   #heroimg {
-    height: 25rem;
-    width: 25rem;
+    height: 21.5rem;
+    padding-right: 2.5rem;
   }
 
   #section-dw {
@@ -199,14 +199,19 @@ nav #nav-container {
   }
 
   #section-feedback {
-    min-height: 78.5vh
+    min-height: 75vh
   }
 
   #feedbackimg {
-    width: 32.5rem;
+    padding-left: 2.5rem;
+    width: 25rem;
   }
 
-  #feedbackimg2 {
-    width: 27.5rem;
+  #feedback2img {
+    width: 22.5rem;
+  }
+
+  .feedback-box-p {
+    padding-left: 2.5rem;
   }
 }
